@@ -124,7 +124,7 @@
                 geminiAPIKey: "", openrouterAPIKey: "", apiProvider: "gemini", maxTokens: 8192,
                 temperature: 0.5, geminiModel: "gemini-2.5-flash", openrouterModel: "google/gemini-pro-1.5",
                 customGeminiModel: "", messageLimit: 100, // 기본값 100으로 변경
-                userMessage: "OOC: これまでのロールプレイングの進行状況を要約して。",
+                userMessage: "**OOC: これまでのロールプレイングの進行状況を要約して。**",
                 prependText: "**OOC: これまでのロールプレイングの進行状況の要約です。今後の応答でこの要約内容を参照します。**",
                 appendText: "", activePromptId: "p1"
             };
